@@ -1,0 +1,60 @@
+body {
+    margin: 0 ;
+    background-color: cyan;
+    overflow: auto;
+   }
+
+.name{
+  margin-left: 900px;
+  margin-top: 200px;
+  font-size: 20px;
+  font-family: 'Gabriola', cursive;
+}   
+::-webkit-scrollbar {
+    width: 2px;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: green;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color:red;
+    color: black;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+p{
+  font-size: 40px;
+  padding-top: 20%;
+  padding-left: 10%;
+}
+.content{
+  border: 2px solid;
+    width: 1250px;
+    height: 800px;
+    float: right;
+  overflow: auto;
+}
+#Addition,#oddeven,#swap,#factorial,#prime,#reverse,#armstrong,#palindrome,#sreverse,#multiply,#positive,#average,#square,#rectangle,#triangle,#circle,#largest,#calci,#floyd,#circum,#input,#smallest,#leap,#random{
+     margin-left: 400px;
+      margin-top: 300px;
+}
